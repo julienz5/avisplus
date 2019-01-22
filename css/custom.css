@@ -1,0 +1,39 @@
+#logo{
+	padding: 5px;
+}
+#logobox{
+	padding: 0px!important;
+}
+
+.main-menu .navigation > li > a {
+    color: #3f72af;
+}
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a, .main-menu .navigation > li.current-menu-item > a {
+    color: #FF5A5A;
+}
+.main-menu .navigation > li > a:before {
+    border-bottom: 2px solid #FF5A5A;
+}
+.banner-one .text-column h4 {
+    color: #FF5A5A;
+}
+
+.banner-one .text-column .inner {
+    padding-top: 70px;
+}
+
+.scroll-to-top:hover{
+	background:#3f72af;
+}
+.footer-upper{
+	background-color: #2c2d2d;
+}
+
+.copyright{
+    margin-top: 5px;
+}
+.fa-heartbeat
+{
+    color: #FF5A5A;
+}
+

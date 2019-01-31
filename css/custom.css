@@ -5,6 +5,10 @@
 	padding: 0px!important;
 }
 
+.logo{
+    height: 75px;
+}
+
 .main-menu .navigation > li > a {
     color: #3f72af;
 }

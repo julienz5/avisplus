@@ -21,11 +21,13 @@
 				scrollLink.fadeIn(300);
 				// JZ update
 				$("#logo").attr("src","images/logo_only.png");
+				$("#logo").attr("height","72%");
 
 			} else {
 				siteHeader.removeClass('fixed-header');
 				scrollLink.fadeOut(300);
 				$("#logo").attr("src","images/logo.png");
+				$("#logo").attr("height","auto");
 			}
 		}
 	}

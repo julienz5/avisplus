@@ -26,6 +26,10 @@
     padding-top: 70px;
 }
 
+.testimonials-carousel-one .text-column .text {
+    font-size: 26px;
+}
+
 .scroll-to-top:hover{
 	background:#3f72af;
 }

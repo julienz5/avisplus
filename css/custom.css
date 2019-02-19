@@ -22,6 +22,10 @@
     color: #FF5A5A;
 }
 
+.banner-one {
+    padding: 250px 0px 0px;
+}
+
 .banner-one .text-column .inner {
     padding-top: 70px;
 }

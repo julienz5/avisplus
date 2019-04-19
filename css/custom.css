@@ -1,5 +1,6 @@
 #logo{
-	padding: 5px;
+    padding: 5px;
+    margin-top: 15px;
 }
 #logobox{
 	padding: 0px!important;
@@ -10,7 +11,7 @@
 }
 
 .main-menu .navigation > li > a {
-    color: #3f72af;
+    color: #304460;
 }
 .main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a, .main-menu .navigation > li.current-menu-item > a {
     color: #FF5A5A;
@@ -46,6 +47,38 @@
 }
 .fa-heartbeat
 {
-    color: #FF5A5A;
+    color: #00bca8;
+}
+.footer-upper h3 {
+    color: #00bca8 !important;
 }
 
+#discover{
+    background: #50a3a2;
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    height: 150px;
+}
+
+.features-section{
+    padding-bottom: 0px;
+}
+
+#discover-button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #304460;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.25s;
+  }
+  #discover-button:hover {
+    background-color: #f5f7f9;
+    color: #00bca8;
+  }

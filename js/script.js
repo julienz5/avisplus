@@ -242,18 +242,23 @@
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {
-				bname: {
+				pname: {
 					required: true
 				},
-				boname: {
+				busname: {
 					required: true
 				},
-				stores: {
+				topic: {
 					required: true
 				},
 				phone: {
+					required: false
+				},
+
+				descr: {
 					required: true
 				},
+
 				email: {
 					required: true,
 					email: true

@@ -10,8 +10,25 @@
     height: 75px;
 }
 
+h2{
+  font-family: 'Nunito Sans';
+}
+
+p{
+  font-family: 'Nunito';
+}
+
+body{
+  font-family: 'Nunito';
+}
+
+.main-menu .navigation {
+  font-family: 'Nunito Sans';
+}
+
 .main-menu .navigation > li > a {
     color: #304460;
+    text-transform: uppercase;
 }
 .main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a, .main-menu .navigation > li.current-menu-item > a {
     color: #FF5A5A;
@@ -21,6 +38,8 @@
 }
 .banner-one .text-column h4 {
     color: #FF5A5A;
+    font-family: 'Cabin';
+    text-transform: uppercase;
 }
 
 .banner-one {
@@ -78,6 +97,7 @@
     font-size: 20px;
     transition-duration: 0.25s;
     margin-top:54px;
+    font-family: 'Nunito Sans'
   }
   #discover-button:hover {
     background-color: #f5f7f9;

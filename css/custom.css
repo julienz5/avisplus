@@ -50,6 +50,14 @@ body{
     padding-top: 70px;
 }
 
+#démarrer_btn{
+  border-color: #00bca8;
+}
+
+#démarrer_btn:hover{
+  background-color: #00bca8;
+}
+
 .testimonials-carousel-one .text-column .text {
     font-size: 26px;
 }
